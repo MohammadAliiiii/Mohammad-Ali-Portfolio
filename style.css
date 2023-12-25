@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.me {
+    height: 93vh;
+    margin-bottom: -1vh;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    background: wheat;
+    width: 100vw;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    margin: 2vh 2vw;
+    font-size: 18px;
+    border: 2px solid black;
+    padding: .5vh .5vw;
+    border-radius: 1vh;
+    transition: .1s;
+}
+
+nav ul li a:hover {
+    color: black;
+    background: white;
+}
+
+.slogan {
+    color: black;
+}
+
+.sloganContainer {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    background: wheat;
+}
+
+.box1 {
+    width: 23vw;
+}
+
+.container {
+    display: flex;
+
+}
+
+.resume {
+    width: 15vw;
+    height: 6vh;
+    background: wheat;
+    outline: none;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+    border-radius: 1vh;
+    transition: .1s;
+}
+
+.samaan1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 40vh;
+}
+
+.samaan2 {
+    display: flex;
+    justify-content: center;
+    height: 40vh;
+}
+
+.resume:hover {
+    background: #fbf2e0;
+}
+
+.myName {
+    font-size: 48px;
+}
+
+.box2 {
+    overflow-y: auto;
+    height: 90vh;
+    margin-left: 4vh;
+    width: 85vw;
+}
+
+.image {
+    width: 35vw;
+    margin-left: 5vw;
+}
+
+.link {
+    margin-left: -5vw;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+
+.downloadButton {
+    text-decoration: none;
+}
+
+@media (max-width: 1313px) {
+    .container{
+        display: block;
+
+    }
+    .box1{
+        height: 30vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .me{
+        height: 30vh;
+        border-radius: 1vh;
+        margin-top: 2vh;
+    }
+    .box2{
+        overflow: visible;
+        width: 90%;
+        justify-content: center;
+    }
+    .resume{
+        width: 30vw;
+    }
+    .portfolio{
+        margin-top: -15vh;
+    }
+    .image{
+        width: 70vw;
+    }
+    .myName{
+        font-size: 5vh;
+    }
+}
+@media (min-width:901px) and (max-width:1313px) {
+    .box2{
+        width: 96%;
+    }
+}
